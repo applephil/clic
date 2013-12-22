@@ -1,0 +1,11 @@
+{
+    "applications": {
+        "Clic": {
+            "applicationId": "WNuvF7tEVvhuIogQV3R0HiyqveHx6pCEnM6PYLrZ", 
+            "masterKey": "lxxMHGTuf7Kl4YgMPh99WFvIHcVbA8XjQXDAre5B"
+        }, 
+        "_default": {
+            "link": "Clic"
+        }
+    }
+}
