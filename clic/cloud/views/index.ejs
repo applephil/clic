@@ -10,8 +10,11 @@
 <script src="//code.jquery.com/jquery-2.0.3.js"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 <script src="//www.parsecdn.com/js/parse-1.2.15.min.js"></script>
-<script src="/js/main.js"></script>
 
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.0/backbone-min.js"></script>
+
+<script src="/js/main.js"></script>
 <title>Clic</title>
 </head>
 
@@ -107,17 +110,14 @@
   <h1>Welcome to Clic.</h1>
 </div>
 
-<!-- shitty login form -->
-<form>
-  <div>Email: <input type="text" name="email"></div>
-  <div>Password: <input type="password" name="pass"></div>
-  <button type="submit" class="btn btn-default">Sign in</button>
-</form>
+<div id="content_view">
 
-<!-- testing login via facebook sdk and parse sdk -->
-<div class="fb-login-button" data-width="750" data-height="200" data-max-rows="1" data-show-faces="true"></div>
+</div>
 
-<a href="#" onclick="facebookLogin()">Parse Facebook Login</a>
+<% include login.ejs %>
+<% include register.ejs %>
+<% include make.ejs %>
+
 </body>
 
 </html>
